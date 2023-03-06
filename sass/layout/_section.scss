@@ -1,0 +1,8 @@
+.section {
+	display: grid;
+	gap: 0.94rem;
+
+	@media (min-width: 1024) {
+		gap: 1.88rem;
+	}
+}

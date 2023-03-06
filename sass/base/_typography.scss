@@ -8,6 +8,28 @@ p {
 	font-size: 0.94rem;
 }
 
+p {
+	line-height: 150%;
+}
+
+p.single-thumbnail__p {
+	font-size: 0.94rem;
+	@media (min-width: 768px) {
+		font-size: 1.33rem;
+	}
+	@media (min-width: 1024px) {
+		font-size: 0.94rem;
+	}
+}
+
+figcaption {
+	font-size: 0.7rem;
+}
+
+h2 {
+	font-size: 1.88rem;
+}
+
 a,
 li,
 button {
