@@ -12,14 +12,16 @@
 		margin-inline: auto;
 		grid-template-columns: repeat(3, 1fr);
 		gap: 20px;
+		border: 1px solid black;
 	}
 
-	@media (min-width: 1024px) {
-		width: 1024px;
+	@media (min-width: 992px) {
+		grid-template-columns: repeat(4, 1fr);
+		width: 992px;
 	}
 
 	@media (min-width: 1200px) {
-		grid-template-columns: repeat(4, 1fr);
+		
 		width: 1200px;
 	}
 
@@ -36,6 +38,7 @@
 	&__menu-btn {
 		letter-spacing: 2.5px;
 		padding: 1rem 3rem;
+		
 
 		@media (min-width: 768px) {
 			display: none;
@@ -50,6 +53,7 @@
 		grid-column: 4/-1;
 		display: flex;
 		justify-content: space-between;
+		border: 1px solid black;
 	}
 
 	&__btn {

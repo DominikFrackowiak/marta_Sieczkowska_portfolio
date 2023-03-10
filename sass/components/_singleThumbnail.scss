@@ -5,6 +5,10 @@
 	background-size: cover;
 	cursor: pointer;
 
+	@media (min-width: 576px) {
+		height: 208px;
+	}
+
 	@media (min-width: 768px) {
 		height: 175px;
 	}
@@ -20,208 +24,207 @@
 	//KOZA
 
 	&--thumbnail-1 {
-		background-image: url('../../public/img/MINIATURY_360/KOZA_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/KOZA_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/KOZA_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/KOZA_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/KOZA_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/KOZA_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/KOZA_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/KOZA_2x_resultado.webp');
+		}
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/KOZA_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/KOZA_1x.jpg');
-		}
-
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/KOZA_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/KOZA_2x_resultado.webp');
 		}
 	}
 
 	//PIGEON
 
 	&--thumbnail-2 {
-		background-image: url('../../public/img/MINIATURY_360/PIGEON_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/PIGEON_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/PIGEON_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/PIGEON_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/PIGEON_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/PIGEON_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/PIGEON_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/PIGEON_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/PIGEON_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/PIGEON_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/PIGEON_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/PIGEON_2x_resultado.webp');
 		}
 	}
 
 	//GLASS
 
 	&--thumbnail-3 {
-		background-image: url('../../public/img/MINIATURY_360/GLASS_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/GLASS_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/GLASS_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/GLASS_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/GLASS_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/GLASS_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/GLASS_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/GLASS_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/GLASS_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/GLASS_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/GLASS_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/GLASS_2x_resultado.webp');
 		}
 	}
 
 	//MEWA
 
 	&--thumbnail-4 {
-		background-image: url('../../public/img/MINIATURY_360/MEWA_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/MEWA_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/MEWA_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/MEWA_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/MEWA_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/MEWA_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/MEWA_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/MEWA_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/MEWA_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/MEWA_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/MEWA_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/MEWA_2x_resultado.webp');
 		}
 	}
 
 	//URBANEK
 
 	&--thumbnail-5 {
-		background-image: url('../../public/img/MINIATURY_360/URBANEK_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/URBANEK_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/URBANEK_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/URBANEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/URBANEK_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/URBANEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/URBANEK_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/URBANEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/URBANEK_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/URBANEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/URBANEK_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/URBANEK_2x_resultado.webp');
 		}
 	}
 
 	//EABS
 
 	&--thumbnail-6 {
-		background-image: url('../../public/img/MINIATURY_360/EABS_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/EABS_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/EABS_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/EABS_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/EABS_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/EABS_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/EABS_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/EABS_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/EABS_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/EABS_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/EABS_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/EABS_2x_resultado.webp');
 		}
 	}
 
 	//LASEK
 
 	&--thumbnail-7 {
-		background-image: url('../../public/img/MINIATURY_360/LASEK_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/LASEK_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/LASEK_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/LASEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/LASEK_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/LASEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/LASEK_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/LASEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/LASEK_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/LASEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/LASEK_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/LASEK_2x_resultado.webp');
 		}
 	}
 
 	//ZAMEK
 
 	&--thumbnail-8 {
-		background-image: url('../../public/img/MINIATURY_360/ZAMEK_1x.jpg');
+		background-image: url('../../img/MINIATURY_576/ZAMEK_1x_resultado.webp');
 
 		@media (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_360/ZAMEK_2x.jpg');
+			background-image: url('../../img/MINIATURY_576/ZAMEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 768px) {
-			background-image: url('../../public/img/MINIATURY_768/ZAMEK_1x.jpg');
+		@media (min-width: 992px) {
+			background-image: url('../../img/MINIATURY_992/ZAMEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 768px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_768/ZAMEK_2x.jpg');
+		@media (min-width: 992px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_992/ZAMEK_2x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) {
-			background-image: url('../../public/img/MINIATURY_1200/ZAMEK_1x.jpg');
+		@media (min-width: 1200px) {
+			background-image: url('../../img/MINIATURY_1200/ZAMEK_1x_resultado.webp');
 		}
 
-		@media (min-width: 1024px) and (min-resolution: 2dppx) {
-			background-image: url('../../public/img/MINIATURY_1200/ZAMEK_2x.jpg');
+		@media (min-width: 1200px) and (min-resolution: 2dppx) {
+			background-image: url('../../img/MINIATURY_1200/ZAMEK_2x_resultado.webp');
 		}
 	}
 
